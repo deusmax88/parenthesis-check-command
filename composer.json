@@ -1,0 +1,22 @@
+{
+  "name": "mark-pasko/parenthesis-checker-command",
+  "description": "Console command for checking parenthesis",
+  "type": "project",
+  "license": "free",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Mark Pasko",
+      "email": "job66-mark@yandex.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Commands\\": "src/Commands"
+    }
+  },
+  "require": {
+    "symfony/console": "^3.4",
+    "mark-pasko/parenthesis-checker": "dev-master"
+  }
+}
